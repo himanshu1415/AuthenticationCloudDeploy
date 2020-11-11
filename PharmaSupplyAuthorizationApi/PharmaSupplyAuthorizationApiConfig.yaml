@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: authimage
-        image: dock2cr.azurecr.io/authimage:latest
+        image: dockcr.azurecr.io/authimage:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
